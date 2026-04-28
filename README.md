@@ -1,1 +1,1 @@
-골딱이
+![solved.ac 카드](https://solvedac-readme-stats.vercel.app/api?handle=scolpionbell&v=1&streak=false)
