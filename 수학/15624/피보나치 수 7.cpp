@@ -1,19 +1,22 @@
-#include <iostream>
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int dp[1000001];
+int dp[1000001] = {0, 1};
 
-int main(void)
-{
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int n;
-    scanf("%d", &n);
-    dp[1] = 1;
+    cin >> n;
+
+
     for (int i = 2; i <= n; i++) {
         dp[i] = (dp[i - 1] + dp[i - 2]) % 1000000007;
     }
-    printf("%d\n", dp[n]);
+    cout << dp[n] << "\n";
 
-    return 0;
+
 }
