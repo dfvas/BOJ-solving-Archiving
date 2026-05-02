@@ -1,4 +1,4 @@
-# [Bronze II] 할리갈리 - 25755
+# [Bronze II] 거울반사 - 25755
 
 [문제 링크](https://www.acmicpc.net/problem/25755) 
 
